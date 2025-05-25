@@ -1,0 +1,10 @@
+<section>
+    <div class="image">
+        <img [src]="movieImage" [alt]="movie().title">
+    </div>
+    <div>
+        <h1>{{ movie().title }}</h1>
+        <p>Year: {{movie().year}}</p>
+        <p>Rate: {{ movie().rate }}/5</p>
+    </div>
+</section>

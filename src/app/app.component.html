@@ -1,1 +1,6 @@
-<app-header/>
+<app-header (movieClicker)="isOpen($event)" (bookClicker)="isOpen($event)"/>
+@if (onMovieListOpen) {
+  <app-movies/>
+} @else if (onBookListOpen) {
+  <app-books/>
+}

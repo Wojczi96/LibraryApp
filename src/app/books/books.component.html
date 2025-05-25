@@ -1,0 +1,11 @@
+<section>
+    <div>
+        @for (book of books ; track book) {
+            <ul>
+                <li>
+                    <app-book [book]="book"/>
+                </li>
+            </ul>
+        }
+    </div>
+</section>

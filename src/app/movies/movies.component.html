@@ -1,0 +1,11 @@
+<section>
+    <div>
+        @for (movie of movies; track movie) {
+            <ul>
+                <li>
+                    <app-movie [movie]="movie"/>
+                </li>
+            </ul>
+        }
+    </div>
+</section>
